@@ -1,0 +1,27 @@
+.que-user{
+    font-family: 楷体;
+    font-size: medium;
+}
+.content-place{
+    margin: 10px;
+    margin-top: 15px;
+    font-size: 10px;
+    color:#000;
+}
+.tag-place{
+    font-size: small;
+
+}
+.tag-place-left{
+    margin: 0px 0px 0px 4px;
+}
+.tag-place-left{
+    margin: 0px 0px 4px 0px;
+}
+.tag{
+    background-color:#f9f9f9;
+    border-radio:10px;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}

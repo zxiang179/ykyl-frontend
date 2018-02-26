@@ -1,0 +1,162 @@
+<style>
+    .queCenter{
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .choseFilter{
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+        height:100%;
+
+    }
+    .mainPage{
+        position: absolute;
+        z-index: 100;
+    }
+    .rightList{
+        opacity: 1;
+        position: relative;
+        float: right;
+        width: 40%;
+        height: 100%;
+        background-color: white;
+        top: 0px;
+    }
+    .left{
+        position: relative;
+        float: left;
+        width: 60%;
+        height: 100%;
+        opacity: 0.5;
+        background-color: white;
+    }
+    .container{
+        width: 100%;
+        height:100%;
+    }
+    .btn{
+        position: relative;
+        margin-top: 50px;
+        right: -180%;
+    }
+    .form-group {
+        margin-bottom: 60px;
+    }
+    .form-group label {
+        margin-top: 26px;
+    }
+    .answer-Content{
+        margin-top: 30px;
+    }
+</style>
+
+<div class="container mainPage"  >
+<!--<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======-->
+    <div class="queAnsCenter"  >
+        <div class="queCenter">
+<!--&gt;>>>>>> jlj0711
+>>>>>>> jlj0711
+>>>>>>> jlj0711-->
+    <header >
+        <div class="col-xs-12 page-top-ques">
+            <a href="#/queAnsDetail" >
+               <i class="fa fa-chevron-left icon-return pull-left"></i>
+                <!--问题-->
+            </a>
+            <span class="page-now">问答中心</span>
+
+<!--<<<<<<< HEAD
+            <button   class="pull-right sendBtn" ng-click="saveCommentContent()" >发布</button>
+=======
+<<<<<<< HEAD
+            <button   class="pull-right sendBtn" ng-click="saveCommentContent()" >发布</button>
+=======
+<<<<<<< HEAD
+            <button   class="pull-right sendBtn" ng-click="saveCommentContent()" >发布</button>
+=======-->
+            <submit   style="cursor:pointer" class="pull-right sendBtn" ng-click="ansDetailCtrl.saveCommentContent()" >发布</submit>
+<!--&gt;>>>>>> jlj0711
+>>>>>>> jlj0711
+>>>>>>> jlj0711-->
+        </div>
+    </header>
+    <div class="content">
+
+        <!--  <div class="form-group">
+
+              <div class="col-xs-8 delPadd">
+                  <input class="form-control" id="schoolSelect" placeholder="" value="{{queAnsCtrl.filterCondition.filterGrades +'  '+ queAnsCtrl.filterCondition.filterSubject }}" >
+              </div>
+              <a for="schoolSelect" class="col-xs-3 control-label" ng-click="queAnsCtrl.isFilterShow=true">筛选</a>
+          </div>-->
+
+        <div class="mainContent">
+
+<!--<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> jlj0711
+>>>>>>> jlj0711-->
+            <div class="queAnsCenter"  >
+                <div class="queCenter">
+                  <!--  <div class="img-myself" style="display: inline-block" >
+                        <img src="{{ansDetailCtrl.queDetail.userPhoto}}"/>
+                    </div>
+                    <span style="width: 20%">{{ansDetailCtrl.queDetail.username}}</span>
+                    <div style="float: right">
+                        <a >评论</a>
+                        <span >{{ansDetailCtrl.queDetail.commentCount}}</span>
+                    </div>
+                    <p>{{ansDetailCtrl.queDetail.question}}</p>
+
+                    &lt;!&ndash;<p>{{ansDetailCtrl.queDetail.question}}</p>&ndash;&gt;
+                    <div class="tag-place">
+                        <span>{{ansDetailCtrl.queDetail.gradeTag}}</span>
+                        <span>{{ansDetailCtrl.queDetail.subTag}}</span>-->
+<!--<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======-->
+           <!-- <div class="queAnsCenter"  >
+                <div class="queCenter">-->
+                    <!--<div class="img-myself" style="display: inline-block" >
+                        <img src="{{ansDetailCtrl.queDetail.userPhoto}}"/>
+                    </div>-->
+                    <span style="width: 20%" class="que-user">{{ansDetailCtrl.queDetail.username}}</span>
+                    <div style="float: right">
+                        <span class="que-font">评论</span>
+                        <span >{{ansDetailCtrl.queDetail.commentCount}}</span>
+                    </div>
+                    <p class="content-place que-font">{{ansDetailCtrl.queDetail.question}}</p>
+
+                    <!--<p>{{ansDetailCtrl.queDetail.question}}</p>-->
+                    <div class="tag-place">
+                        <span class="tag-place-left" >{{ansDetailCtrl.queDetail.gradeTag}}</span>
+                        <span class="tag-place-right">{{ansDetailCtrl.queDetail.subTag}}</span>
+<!--&gt;>>>>>> jlj0711
+>>>>>>> jlj0711
+>>>>>>> jlj0711-->
+                    </div>
+                </div>
+                <div class="answer">
+                    <textarea class="form-control answer-Content" rows="10" placeholder="回复内容" ng-model="ansDetailCtrl.commentContent"></textarea>
+                </div>
+
+
+
+
+
+        </div>
+
+    </div>
+</div>
